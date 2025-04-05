@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Talleres Bolo S.L.</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="slick/slick.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=API_KEY"></script>
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="navbar-logo">
+      <!-- Logo primero -->
+      <img src="img/image.webp" alt="talleresbolo logo" class="logo">
+      <a href="#">Talleres Bolo S.L</a>
+      <!-- Icono de hamburguesa -->
+      <div class="hamburger" id="hamburger-icon">&#9776;</div>
+    </div>
+  
+    <!-- Menú de navegación -->
+    <ul class="navbar-menu " id="navbar-menu">
+      <li class="navbar-menu-item"><a href="#">Inicio</a></li>
+      <li class="navbar-menu-item"><a href="#nosotros">Nosotros</a></li>
+      <li class="navbar-menu-item"><a href="#servicios">Servicios</a></li>
+      <li class="navbar-menu-item"><a href="#trabajos">Trabajos Realizados</a></li>
+      <li class="navbar-menu-item"><a href="/blog/index.html">Blog</a></li>
+      <li class="navbar-menu-item"><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+    
+<!-- Sección de Bienvenida o Destacada -->
+<section id="bienvenida">
+  <div class="bienvenida-container">
+      <img src="img/bienvenida.jpg" alt="Talleres Bolo SL">
+      <div class="bienvenida-text">
+          <h2>Talleres Bolo S.L.</h2>
+      </div>
+  </div>
+</section>
+
+<!-- Sección Nosotros -->
+<section id="nosotros">
+  <div class="container">
+    <h2 class="section-title">Nosotros</h2>
+    <div class="content-container">
+      <div class="nosotros-item">
+        <img src="img/metales.jpg" alt="Equipo de trabajo">
+        <div class="nosotros-text">
+          <h3 class="nosotros-title">Experiencia y profesionalismo</h3>
+          <p class="nosotros-description">En Talleres Bolo S.L contamos con un equipo altamente capacitado y con amplia experiencia en la manipulación de metales y mecanizado de piezas, soldadura y arreglo de bombas de agua. Nos comprometemos a brindar soluciones efectivas y de calidad para cada proyecto.</p>
+        </div>
+      </div>
+      <div class="nosotros-item">
+        <img src="img/metales.jpg" alt="Maquinaria moderna">
+        <div class="nosotros-text">
+          <h3 class="nosotros-title">Tecnología de vanguardia</h3>
+          <p class="nosotros-description">En Talleres Bolo S.L utilizamos maquinaria moderna y de alta precisión para garantizar la calidad y exactitud en cada trabajo que realizamos. Nos mantenemos actualizados en las últimas tecnologías y técnicas para asegurar un servicio de vanguardia.</p>
+        </div>
+      </div>
+      <div class="nosotros-item">
+        <img src="img/metales.jpg" alt="Calidad en el trabajo">
+        <div class="nosotros-text">
+          <h3 class="nosotros-title">Compromiso con la calidad</h3>
+          <p class="nosotros-description">La calidad es nuestra prioridad en Talleres Bolo S.L. Trabajamos con los más altos estándares de calidad en cada proyecto que realizamos, asegurando que cada pieza y producto cumpla con las especificaciones y requisitos del cliente.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  
+  
+  
+<!-- Sección de servicios -->
+<section id="servicios">
+  <div class="container">
+    <h2>Nuestros servicios</h2>
+    <div class="row">
+      <div class="col-md-4 servicio">
+        <div class="servicio-img">
+          <img src="img/metal2.jpg" alt="Soldadura y chapa">
+        </div>
+        <div class="servicio-info">
+          <h3>Soldadura y chapa</h3>
+          <p>Realizamos trabajos de soldadura profesional y reparación de carrocería, adaptados a todo tipo de maquinaria y vehículos industriales.</p>
+        </div>
+      </div>
+      <div class="col-md-4 servicio">
+        <div class="servicio-img">
+          <img src="img/metal2.jpg" alt="Reparacion de motores y bombas">
+        </div>
+        <div class="servicio-info">
+          <h3>Reparacion de motores y bombas</h3>
+          <p>Especialistas en la reparación, mantenimiento y puesta a punto de motores industriales y bombas hidráulicas. Ofrecemos soluciones eficientes para prolongar la vida útil de tus equipos.</p>
+        </div>
+      </div>
+      <div class="col-md-4 servicio">
+        <div class="servicio-img">
+          <img src="img/metal2.jpg" alt="Mecanizados CNC">
+        </div>
+        <div class="servicio-info">
+          <h3>Mecanizados CNC</h3>
+          <p>Contamos con tecnología CNC para mecanizados de alta precisión, garantizando acabados óptimos en piezas técnicas y componentes industriales.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Sección de trabajos realizados -->
+  <section id="trabajos">
+    <h2>Trabajos Realizados</h2>
+    <div class="slider-frame">
+      <ul>
+        <li><img src="img/metal5.webp" alt="Trabajo soldadura realizado por Talleres Bolo S.L."></li>
+        <li><img src="img/metal6.webp" alt="Trabajo realizado por Talleres Bolo S.L."></li>
+        <li><img src="img/metal7.webp" alt="Trabajo realizado por Talleres Bolo S.L."></li>
+        <li><img src="img/metal8.webp" alt="Trabajo realizado por Talleres Bolo S.L."></li>
+        <li><img src="img/metal9.webp" alt="Trabajo realizado por Talleres Bolo S.L."></li>
+        <li><img src="img/metal10.webp" alt="Trabajo realizado por Talleres Bolo S.L."></li>
+        <li><img src="img/metal5.webp" alt="Trabajo realizado por Talleres Bolo S.L."></li>
+        <li><img src="img/metal7.webp" alt="Trabajo realizado por Talleres Bolo S.L."></li>
+        <li><img src="img/metal8.webp" alt="Trabajo realizado por Talleres Bolo S.L."></li>
+        <li><img src="img/metal11.webp" alt="Trabajo realizado por Talleres Bolo S.L."></li>
+        <li><img src="img/metal12.webp" alt="Trabajo realizado por Talleres Bolo S.L."></li>
+      </ul>      
+    </div>
+</section>
+
+
+<!-- Sección de contacto -->
+<section id="contacto" class="contacto">
+  <div class="container">
+    
+    <!-- Información de contacto -->
+    <div class="row">
+      <div class="col-md-12 contacto-info text-center">
+        <h2>Contáctanos</h2>
+        <p>Si necesitas más información sobre nuestros servicios, no dudes en ponerte en contacto con nosotros. Puedes hacerlo a través del formulario de contacto o utilizando los siguientes medios:</p>
+        <ul>
+          <li><i class="fa fa-phone"></i> <span>Teléfono:</span> 962 85 09 37</li>
+          <li><i class="fa fa-envelope"></i> <span>Correo electrónico:</span> talleresbolo@talleresbolo.com</li>
+          <li><i class="fa fa-map-marker"></i> <span>Dirección:</span> Polígon Casals Sector-3 Almac, 29, 46780 Oliva, Valencia</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Formulario y mapa -->
+    <div class="formulario-mapa">
+      
+      <!-- Formulario -->
+      <div class="col-md-6 contacto-formulario">
+        <h2>Formulario de contacto</h2>
+        <form action="enviar_correo.php" method="POST">
+          <div class="form-group">
+            <input type="text" class="form-control" name="nombre" placeholder="Nombre" required>
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" name="correo" placeholder="Correo electrónico" required>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" name="asunto" placeholder="Asunto" required>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" name="mensaje" rows="6" placeholder="Mensaje" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+
+      <!-- Mapa -->
+      <div class="col-md-6 contacto-mapa">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1552.3687020678205!2d-0.10772370265201056!3d38.90711992314992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd61e41ff44969d7%3A0x413f4901c937b64a!2sTalleres%20Bolo%20SL!5e0!3m2!1ses!2ses!4v1743875351416!5m2!1ses!2ses"
+          width="100%"
+          height="450"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Talleres Bolo S.L. Todos los derechos reservados.</p>
+</footer>
+
+  <!-- Scripts -->
+
+<!-- Fin del código HTML -->
