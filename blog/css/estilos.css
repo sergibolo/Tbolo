@@ -275,6 +275,52 @@ footer {
   font-size: 0.9rem;
 }
 
+/*redes*/
+.redes-sociales {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+}
+
+.redes-sociales h3 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.social-icons a {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.1);
+}
+
+.social-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+/* 📱 Versión móvil: logos más pequeños */
+@media (max-width: 576px) {
+  .social-logo {
+    width: 35px;
+    height: 35px;
+  }
+
+  .social-icons {
+    gap: 20px;
+  }
+}
+
+
 /* Responsive: Móviles y Tablets */
 @media (max-width: 768px) {
   header nav {

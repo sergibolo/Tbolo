@@ -524,7 +524,7 @@ img {
   }
 }
 
-/* Redes sociales */
+/*redes*/
 .redes-sociales {
   background-color: #f9f9f9;
   padding: 40px 0;
@@ -535,22 +535,39 @@ img {
   margin-bottom: 20px;
 }
 
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
 .social-icons a {
-  margin: 0 15px;
-  font-size: 2.5em;
-  transition: transform 0.3s ease, color 0.3s ease;
+  display: inline-block;
+  transition: transform 0.3s ease;
 }
 
 .social-icons a:hover {
-  transform: scale(1.2);
-  opacity: 0.8;
+  transform: scale(1.1);
 }
 
-/* Colores específicos de cada red */
-.social-icons a.facebook { color: #3b5998; }
-.social-icons a.instagram { color: #e4405f; }
-.social-icons a.linkedin { color: #0077b5; }
-.social-icons a.twitter { color: #1da1f2; }
+.social-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+/* 📱 Versión móvil: logos más pequeños */
+@media (max-width: 576px) {
+  .social-logo {
+    width: 35px;
+    height: 35px;
+  }
+
+  .social-icons {
+    gap: 20px;
+  }
+}
 
 
 /* Estilos para el pie de página */
