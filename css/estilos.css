@@ -184,7 +184,7 @@ img {
   opacity: 0.6; /* La imagen se vuelve más opaca al hacer hover */
 }
 
-.bienvenida-text h2 {
+.bienvenida-text h1 {
   font-size: 48px;
   font-weight: bold;
   letter-spacing: 3px;
@@ -524,6 +524,33 @@ img {
   }
 }
 
+/* Redes sociales */
+.redes-sociales {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+}
+
+.redes-sociales h3 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  margin: 0 15px;
+  font-size: 2.5em;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+
+/* Colores específicos de cada red */
+.social-icons a.facebook { color: #3b5998; }
+.social-icons a.instagram { color: #e4405f; }
+.social-icons a.linkedin { color: #0077b5; }
+.social-icons a.twitter { color: #1da1f2; }
 
 
 /* Estilos para el pie de página */
