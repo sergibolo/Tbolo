@@ -353,6 +353,8 @@ img {
   color: #fff;
 }
 
+
+
 @media (min-width: 768px) {
   .servicio {
     flex-basis: 45%;

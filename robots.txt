@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /copias/
+Disallow: /blog/js/
+Disallow: /blog/css/
+Disallow: /blog/img/
+
+Sitemap: https://www.talleresbolo.com/sitemap.xml
